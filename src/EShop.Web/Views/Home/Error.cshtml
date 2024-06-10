@@ -1,0 +1,14 @@
+﻿@model EShop.Web.ViewModels.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">Sorry, something went wrong.</h2>
+
+@if (Model?.RequestId != null)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}

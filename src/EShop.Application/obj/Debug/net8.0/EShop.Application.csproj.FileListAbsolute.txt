@@ -1,0 +1,17 @@
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\bin\Debug\net8.0\EShop.Application.deps.json
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\bin\Debug\net8.0\EShop.Application.runtimeconfig.json
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\bin\Debug\net8.0\EShop.Application.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\bin\Debug\net8.0\EShop.Application.pdb
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\bin\Debug\net8.0\EShop.Core.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\bin\Debug\net8.0\EShop.Core.pdb
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.csproj.AssemblyReference.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.AssemblyInfoInputs.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.AssemblyInfo.cs
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Ap.140E939F.Up2Date
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\refint\EShop.Application.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.pdb
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\EShop.Application.genruntimeconfig.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Application\obj\Debug\net8.0\ref\EShop.Application.dll

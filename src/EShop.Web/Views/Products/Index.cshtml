@@ -1,0 +1,35 @@
+﻿@using EShop.Web.Clients;
+@model IEnumerable<CategoryViewModel>
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h2>Categories</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(category.Name, "CategoryDetails", "Products", category.CategoryId)</td>
+                <td>@category.Description</td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("CategoryDetails", "Products", new { categoryId = category.CategoryId })">Details</a>
+                    <form method="post" asp-action="DeleteCategory" asp-route-categoryId="@category.CategoryId" style="display:inline">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" href="@Url.Action("CreateCategory")">Create New Category</a>

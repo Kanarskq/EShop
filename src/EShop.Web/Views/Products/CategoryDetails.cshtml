@@ -1,0 +1,54 @@
+﻿@model CategoryDetailsViewModel
+
+@{
+    ViewData["Title"] = "Category Details";
+}
+
+<h2>@Model.Name</h2>
+<p>@Model.Description</p>
+
+<a class="btn btn-primary" href="@Url.Action("UpdateCategory", new { categoryId = Model.CategoryId })">Edit Category</a>
+<a class="btn btn-secondary" href="@Url.Action("Index")">Back to Categories</a>
+
+<hr />
+
+<h3>Products in this Category</h3>
+@if (Model.Products != null && Model.Products.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>
+                        <img src="data:image/png;base64,@product.ImageBase64" alt="Product Image" style="max-width: 100px; max-height: 100px;" />
+                    </td>
+                    <td>@Html.ActionLink(product.Name, "ProductDetails", new { productId = product.ProductId })</td>
+                    <td>@product.Description</td>
+                    <td>@product.Price</td>
+                    <td>
+                        <a class="btn btn-primary" href="@Url.Action("ProductDetails", new { productId = product.ProductId })">Details</a>
+                        <form method="post" asp-action="DeleteProduct" asp-route-productId="@product.ProductId" style="display:inline">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No products available in this category.</p>
+}
+
+<a class="btn btn-success" href="@Url.Action("CreateProduct", new { categoryId = Model.CategoryId })">Add New Product</a>

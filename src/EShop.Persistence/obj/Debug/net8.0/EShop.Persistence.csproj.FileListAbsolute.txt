@@ -1,0 +1,17 @@
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\bin\Debug\net8.0\EShop.Persistence.deps.json
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\bin\Debug\net8.0\EShop.Persistence.runtimeconfig.json
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\bin\Debug\net8.0\EShop.Persistence.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\bin\Debug\net8.0\EShop.Persistence.pdb
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\bin\Debug\net8.0\EShop.Core.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\bin\Debug\net8.0\EShop.Core.pdb
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.csproj.AssemblyReference.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.AssemblyInfoInputs.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.AssemblyInfo.cs
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Pe.FCE7E945.Up2Date
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\refint\EShop.Persistence.dll
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.pdb
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\EShop.Persistence.genruntimeconfig.cache
+C:\Users\Anatoliy\source\repos\EShop\src\EShop.Persistence\obj\Debug\net8.0\ref\EShop.Persistence.dll

@@ -1,0 +1,34 @@
+﻿@using EShop.Web.Clients;
+@model IEnumerable<ReviewViewModel>
+
+@{
+    ViewData["Title"] = "Product Reviews";
+}
+
+<h2>Reviews</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Rating</th>
+            <th>Comment</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var review in Model)
+        {
+            <tr>
+                <td>@review.UserName</td>
+                <td>@review.Rating</td>
+                <td>@review.Comment</td>
+                <td>
+                    <form method="post" asp-action="DeleteReview" asp-route-userId="@review.UserId" asp-route-productId="@review.ProductId" style="display:inline">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
